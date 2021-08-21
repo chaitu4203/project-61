@@ -1,0 +1,76 @@
+body {
+    text-align: center;
+    background: linear-gradient(#d4f20f 0%, #41e8e2 100%);
+    background-repeat: no-repeat;
+}
+
+h1 {
+    text-align: center;
+    color: crimson;
+}
+
+img {
+    border-radius: 50%;
+    width: 200px;
+}
+
+#bio {
+    padding: 25px;
+    font-size: 18px;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.menu {
+    list-style: none;
+    font-family: cursive;
+    float: right;
+    top: 10px;
+    right: 30px;
+    cursor: pointer;
+    color: black;
+    position: fixed
+}
+
+.ide {
+    float: left;
+    color: yellow;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    font-family: fantasy;
+    font-size: 20px;
+}
+
+.ide:hover {
+    background-color: red
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+about {
+    background-color: aliceblue;
+}
+
+books {
+    background-color: aliceblue;
+}
+
+my work {
+    background-color: aliceblue;
+}
+
+inspiration {
+    background-color: aliceblue;
+}
+
+img:hover {
+    transform: scale(0.9)
+}
